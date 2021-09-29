@@ -1,0 +1,25 @@
+Private Sub Command1_Click()
+Dim n As Integer
+n = Val(Text1.Text)
+Select Case n
+Case 1
+    Label1.Caption = "Monday"
+Case 2
+    Label1.Caption = "Tuesday"
+Case 3
+    Label1.Caption = "Wedensday"
+Case 4
+    Label1.Caption = "Thursday"
+Case 5
+    Label1.Caption = "Friday"
+Case 6
+    Label1.Caption = "Satuarday"
+Case 7
+    Label1.Caption = "Sunday"
+Case Else
+    Label1.Caption = "please Enter number between 1 to 7"
+End Select
+
+
+
+End Sub
