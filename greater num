@@ -1,0 +1,24 @@
+Private Sub Command1_Click()
+Dim n1, n2, n3 As Integer
+n1 = Val(Text1.Text)
+n2 = Val(Text2.Text)
+n3 = Val(Text3.Text)
+If n1 > n2 Then
+    If n1 > n3 Then
+        Label2.Caption = n1
+    Else
+        Label2.Caption = n3
+        
+    End If
+    
+        
+Else
+    If n2 > n3 Then
+    Label2.Caption = n2
+    Else
+     Label2.Caption = n3
+    End If
+End If
+
+
+End Sub
