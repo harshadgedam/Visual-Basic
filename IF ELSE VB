@@ -1,0 +1,19 @@
+Dim n As Integer
+n = Val(Text1.Text)
+If (n = 1) Then
+    Label1.Caption = "Monday"
+ElseIf (n = 2) Then
+    Label1.Caption = "Tuesday"
+ElseIf (n = 3) Then
+    Label1.Caption = "Wedensday"
+ElseIf (n = 4) Then
+    Label1.Caption = "Thursday"
+ElseIf (n = 5) Then
+    Label1.Caption = "Friday"
+ElseIf (n = 6) Then
+    Label1.Caption = "Satuarday"
+ElseIf (n = 7) Then
+        Label1.Caption = "Sunday"
+Else
+    Label1.Caption = "please Enter number between 1 to 7"
+End If
