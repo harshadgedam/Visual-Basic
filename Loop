@@ -1,0 +1,44 @@
+Private Sub Command1_Click()
+Dim n, i As Integer
+n = Val(Text1.Text)
+i = 1
+List1.Clear
+Do While i <= 10
+    List1.AddItem (n * i)
+    i = i + 1
+Loop
+List1.Clear
+i = 1
+Do
+List1.AddItem (n * i)
+i = i + 1
+Loop While i <= 10
+
+List1.Clear
+i = 1
+Do Until i > 10
+    List1.AddItem (n * i)
+    i = i + 1
+Loop
+i = 1
+List1.Clear
+Do
+    List1.AddItem (n * i)
+    i = i + 1
+Loop Until i > 10
+List1.Clear
+i = 1
+While i <= 10
+    List1.AddItem (n * i)
+    i = i + 1
+Wend
+List1.Clear
+i = 1
+For i = 1 To 10 Step 1 'Step 1 is optional use to miss the step
+    List1.AddItem (n * i)
+Next
+
+
+    
+End Sub
+
