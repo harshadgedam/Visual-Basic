@@ -1,0 +1,14 @@
+Dim n As String
+Private Sub Command1_Click()
+n = "allah hun akhbar"
+Harshad2 'or Call harshad
+Harshad (n) ' Aceept
+
+End Sub
+Public Sub Harshad2() ' No Accept
+MsgBox "pakistan zindabad"
+End Sub
+Public Sub Harshad(ByVal num As String)
+MsgBox "ali zafar zinfdabad", vbInformation, "allah"
+End Sub
+
