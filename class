@@ -1,0 +1,31 @@
+Private n1, n2, sum As Integer
+Public Function getdata(ByVal a, ByVal b) As Integer
+n1 = a
+n2 = b
+End Function
+Public Function setdata() As Integer
+sum = n1 + n2
+setdata = sum
+End Function
+
+
+Private Sub Command1_Click()
+Dim a, b, sum As Integer
+Dim ob As New Class1
+a = Val(Text1.Text)
+b = Val(Text2.Text)
+sum = ob.getdata(a, b)
+
+
+
+
+sum = ob.setdata()
+Label1.Caption = sum
+
+
+
+End Sub
+
+
+
+
